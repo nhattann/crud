@@ -42,6 +42,9 @@ function Update() {
                 <Link to='/read'>
                     <Button type='submit' onClick={updateAPIData}>Update</Button>
                 </Link>
+                <Link to='/read'>
+                    <Button type='submit'>Cancel</Button>
+                </Link>
             </Form>
         </div>
     )
